@@ -126,8 +126,8 @@ body {
 }
 @media screen and (max-width: 550px) {
   .row {
-  opacity: 0%;
-}
+    opacity: 100%;
+  }
   .section-two {
     padding: 150px 0px;
   }

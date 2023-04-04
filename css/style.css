@@ -1,0 +1,109 @@
+body {
+  overflow-x: hidden;
+}
+.navbar {
+  transition-duration: 500ms;
+  padding: 10px;
+}
+.navbar a {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.navbar:hover {
+  background-color: white !important;
+  box-shadow: 5px 10px 15px #ffffff;
+}
+.section-one {
+  text-align: center;
+  justify-content: center;
+  background-image: url("/img/background-image.jpg");
+  background-size: 2000px 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 300px 0px 500px 0px;
+  font-family: "Alkatra", cursive;
+}
+.section-one h1 {
+  font-size: 50px;
+}
+.section-two {
+  padding: 300px 0px 300px 0px;
+}
+.section-three {
+  padding: 300px 0px 400px 0px;
+  background-image: url("/img/bg-invest.jpg");
+  background-size: 2000px 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Cinzel", serif;
+}
+.box {
+  position: relative;
+  border: 1px solid rgb(199, 199, 199);
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms;
+}
+.box p {
+  position: absolute;
+  font-size: 17px;
+  top: 20px;
+  color: rgb(65, 65, 65);
+  font-weight: bold;
+}
+.box small {
+  position: absolute;
+  bottom: 20px;
+  color: red;
+  font-size: 12px;
+}
+.box:hover {
+  scale: 1.1;
+}
+.logos {
+  width: 170px;
+  height: 120px;
+  margin: auto;
+  display: block;
+  margin: 25px 0px;
+}
+.section-four {
+  padding-top: 200px;
+}
+.section-five {
+  padding: 200px 0px 50px 0px;
+  font-family: "Cinzel", serif;
+}
+.section-five h1 {
+  font-size: 33px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: rgb(0, 0, 0);
+}
+@media screen and (max-width: 550px) {
+  .section-two {
+    padding: 150px 0px;
+  }
+  .section-two h1 {
+    font-size: 24px;
+  }
+  .section-three {
+    padding-top: 150px;
+  }
+  .section-three h1 {
+    font-size: 27px;
+  }
+  .section-five h1 {
+    font-size: 20px;
+  }
+  .box {
+    margin: auto;
+    margin-bottom: 40px;
+  }
+}

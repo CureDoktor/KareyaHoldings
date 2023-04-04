@@ -125,6 +125,9 @@ body {
   animation: moveAcross 2s;
 }
 @media screen and (max-width: 550px) {
+  .row {
+  opacity: 0%;
+}
   .section-two {
     padding: 150px 0px;
   }

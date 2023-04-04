@@ -81,6 +81,9 @@ body {
   padding: 200px 0px 50px 0px;
   font-family: "Cinzel", serif;
 }
+.section-four h1 {
+  font-family: "Cinzel", serif;
+}
 .section-five h1 {
   font-size: 33px;
 }

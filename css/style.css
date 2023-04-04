@@ -48,6 +48,9 @@ body {
   align-items: center;
   transition: 500ms;
 }
+.row {
+  opacity: 0%;
+}
 .box p {
   position: absolute;
   font-size: 17px;
@@ -85,6 +88,41 @@ body {
   width: 100%;
   height: 1px;
   background: rgb(0, 0, 0);
+}
+@keyframes moveAcrossText {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.textMove {
+  animation: moveAcrossText 0.5s forwards;
+}
+@keyframes moveAcross {
+  0% {
+    opacity: 0%;
+    position: relative;
+    bottom: -200px;
+  }
+  50% {
+    opacity: 50%;
+    bottom: -100px;
+  }
+  100% {
+    opacity: 100%;
+    bottom: 0px;
+  }
+}
+.animate {
+  animation: moveAcross 2s;
+}
+.animate {
+  animation: moveAcross 2s;
 }
 @media screen and (max-width: 550px) {
   .section-two {
